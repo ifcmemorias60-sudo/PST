@@ -1,6 +1,7 @@
 /* Footer */
 footer {
-    background-color: #e8b5b5;
+    background-color: #f2e9e9c5;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;

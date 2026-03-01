@@ -27,51 +27,6 @@ body {
   font-style: normal;
 }
 
-nav {
-    position: sticky;
-
-    height: var(--tamanho-nav);
-    /* width: 100vw; */
-    margin: 0;
-    top: 0;
-    left: 0;
-
-    padding: 0.8% 0;
-
-    display: flex;
-
-    & img {
-        height: var(--tamanho-nav);
-        width: var(--tamanho-nav);
-    }
-
-    & div {
-        width: 90%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        gap: 10%;
-    }
-
-    & a {
-        text-decoration: none;
-        color: #000;
-
-    }
-
-    &::before {
-        content: '';
-        background-color: #efefefe5;
-        width: 100%;
-        padding: 0.8% 0;
-        height: var(--tamanho-nav);
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-}
-
 .logo {
     margin-left: 1.5vw;
 }
@@ -119,7 +74,7 @@ h1 {
 
 p {
     font-size: 18px;
-    margin-top: 1vh;
+    margin-top: 0.5vh;
     margin-left: 2vw;
 }
 

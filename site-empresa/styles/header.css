@@ -1,9 +1,11 @@
 header {
-    background-color: #e8b5b5;
+    width: 100%;
+    background-color: #efefeff1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+    margin-top: 0;
 }
 
 header nav ul {
